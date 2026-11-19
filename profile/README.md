@@ -1,6 +1,11 @@
 # AI Verification Observatory
 
-Open measurement of systems that prove what an AI model computed: what each proof establishes, under which assumptions, at what cost, and whether anyone other than its authors got the same result.
+An effort to foster more open source collaboration in the AI verification ecosystem. We all share the same mission, let's join forces to make sure we accelerate the research and adoption of the verification primitives. 
+
+- Open measurement of systems that prove what an AI model computed: what each proof establishes, under which assumptions, at what cost, and whether anyone other than its authors got the same result.
+- Research experiments
+- Prototype developments
+- Libraries, shared primitives and tooling
 
 <a href="https://www.inferenceproofs.ai"><img alt="Results" src="https://img.shields.io/badge/results-inferenceproofs.ai-0B0B0B?style=for-the-badge"></a>
 <a href="https://github.com/ai-verification-observatory/inference-proofs"><img alt="Benchmark" src="https://img.shields.io/badge/benchmark-inference--proofs-8A2BE2?style=for-the-badge&logo=github"></a>
