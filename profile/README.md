@@ -17,6 +17,7 @@ AI capability is measured in public, on shared benchmarks. Whether an AI system'
 | **Experiments and proofs of concept** | One repository per research spike. Several approaches to the same question are welcome, and negative results are published like positive ones. | [poc-memory-exhaustion](https://github.com/ai-verification-observatory/poc-memory-exhaustion) |
 | **Knowledge base** | Shared findings from every repository, positive or negative, in plain Markdown that people and coding agents both read and write. | [knowledge-base](https://github.com/ai-verification-observatory/knowledge-base) |
 | **Autoresearch** | Agent loops that run experiments against the projects above: read the shared findings, try a change under a fixed budget, keep it only if the metric improves and every negative control still passes, and draft findings for human review. A second loop proposes improvements to our own workflows. | [autoresearch](https://github.com/ai-verification-observatory/autoresearch) |
+| **Red team** | A harness and agent workflows that attack our designs, experiments and prototypes: play the stated adversary and a stronger one, confirm every break with a reproduction, and turn it into a regression test. Breaks in other teams' systems are disclosed to them privately first. | [redteam](https://github.com/ai-verification-observatory/redteam) |
 | **Shared libraries** | Verification primitives and tooling, once experiments and benchmarks show which interfaces converge. | not started |
 
 ## Tracks
