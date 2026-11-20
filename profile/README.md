@@ -16,6 +16,7 @@ AI capability is measured in public, on shared benchmarks. Whether an AI system'
 | **Benchmarks** | Open measurement of verification systems: what each one establishes, under which assumptions, at what cost, and whether anyone other than its authors got the same result. | [inference-proofs](https://github.com/ai-verification-observatory/inference-proofs) |
 | **Experiments and proofs of concept** | One repository per research spike. Several approaches to the same question are welcome, and negative results are published like positive ones. | [poc-memory-exhaustion](https://github.com/ai-verification-observatory/poc-memory-exhaustion) |
 | **Knowledge base** | Shared findings from every repository, positive or negative, in plain Markdown that people and coding agents both read and write. | [knowledge-base](https://github.com/ai-verification-observatory/knowledge-base) |
+| **Autoresearch** | Agent loops that run experiments against the projects above: read the shared findings, try a change under a fixed budget, keep it only if the metric improves and every negative control still passes, and draft findings for human review. A second loop proposes improvements to our own workflows. | [autoresearch](https://github.com/ai-verification-observatory/autoresearch) |
 | **Shared libraries** | Verification primitives and tooling, once experiments and benchmarks show which interfaces converge. | not started |
 
 ## Tracks
